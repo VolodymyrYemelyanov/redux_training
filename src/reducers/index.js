@@ -5,9 +5,7 @@ const initialState = {
 }
 
 const reducer = (state = initialState, action) => {
-    console.log('state');
-    console.log(state);
-    console.log(action);
+    console.log('three');
     switch (action.type) {
         case 'HEROES_FETCHING':
             return {
